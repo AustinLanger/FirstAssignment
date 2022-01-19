@@ -1,9 +1,10 @@
+/*sets the size of the element for the header*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*sets default background colour for website body*/
 body {
     background-color: #d9dcd6;
 }
@@ -14,16 +15,16 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*styles header h1 to display as an inline block and changes the font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*sets font colour of h1 class .seo*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*styles header div element*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +32,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*displays the UL in the header div with no list style*/
 .header div ul {
     list-style-type: none;
 }
-
+/*tells the unordered list and listed items in in the header div to display as an inline-block with a 25px margin on the left side*/
 .header div ul li {
     display: inline-block; 
     margin-left: 25px;
 }
-
+/*sets anchor links on website to have white font and no text decorations*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets font size of p tags to 16px*/
 p {
     font-size: 16px;
 }
-
+/*stylizes the hero class*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*class that tells img to float left in its block, sets a 25px margin on the right side of the img*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*class that tells img to float right in its block, sets a 25px margin on the left side of the img*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*sets anything with the .content class to have a width of 75%, display as an inline block and have a margin on the left side of 20px*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* styles the .benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,25 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/*tells these classes to have a margin on the bottom of 32px and sets colour to white*/
+.benefit-lead, .benefit-brand, .benefit-cost{
     margin-bottom: 32px;
     color: #ffffff;
-}
+    }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*tells these header classes to have a margin of 10px on top and to allign in the center of their block*/
+.benefit-lead h3, .benefit-cost h3, .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*tells these classes to display as blocks, centers the img within its container with a marigin of 10px on all sides, and sets a max width of the img to 150px*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*styling these 3 classes*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,7 +118,7 @@ p {
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/*creating a margin on the bottom of these headers and setting font size*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -160,6 +131,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /*changes footer h2 font size*/
 .footer h2 {
     font-size: 20px;
