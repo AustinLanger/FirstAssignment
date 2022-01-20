@@ -16,7 +16,7 @@ I want to thank Rudi for helping me learn github so late into the night, thanks 
 Screenshot and links
 
 '''md
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.png) 
 '''
 https://austinlanger.github.io/FirstAssignment/ - Live Link
 
