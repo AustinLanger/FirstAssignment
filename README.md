@@ -13,11 +13,11 @@ One happy accident that has occured with this website is the visual change of th
 I want to thank Rudi for helping me learn github so late into the night, thanks rudi.
 
 
-Screenshots and link
+Screenshot and links
 
 '''md
 ![alt text](assets/images/screenshot.png)
 '''
-file:///C:/Users/austi/Desktop/First-Assignment/FirstAssignment/FirstAssignment/index.html (sorry for 3 first assignment folders I HAVE to do them in 3s)
+https://austinlanger.github.io/FirstAssignment/ - Live Link
 
-https://github.com/AustinLanger/FirstAssignment.git
+https://github.com/AustinLanger/FirstAssignment.gitgit add 
