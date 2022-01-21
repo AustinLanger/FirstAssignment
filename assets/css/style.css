@@ -32,12 +32,9 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*displays the UL in the header div with no list style*/
-.header div ul {
-    list-style-type: none;
-}
+
 /*tells the unordered list and listed items in in the header div to display as an inline-block with a 25px margin on the left side*/
-.header div ul li {
+.header ul li {
     display: inline-block; 
     margin-left: 25px;
 }
@@ -83,7 +80,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 /*tells these classes to have a margin on the bottom of 32px and sets colour to white*/
@@ -133,6 +130,6 @@ p {
 }
 
 /*changes footer h2 font size*/
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
